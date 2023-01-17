@@ -33,7 +33,12 @@ h7 {
 }
 
 .text-register {
-  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.btn-register {
+  position: relative;
+  top: 20px;
 }
 
 .input-field label {
