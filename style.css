@@ -1,0 +1,116 @@
+body {
+  padding-top: 50px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #ededed;
+}
+
+.container {
+  display: grid;
+  place-items: center center;
+  margin: auto;
+  max-width: 400px;
+  min-width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.title {
+  margin-top: 40px;
+}
+
+h7 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.text-register {
+  margin-top: 20px;
+}
+
+.input-field label {
+  font-size: 1.2rem;
+}
+
+.input-field input[type="text"],
+.input-field input[type="password"] {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field input[type="text"]:focus + label,
+.input-field input[type="password"]:focus + label {
+  transform: translateY(-10px); /* move o label para cima */
+  font-size: 0.8em; /*diminui o tamanho do label */
+  color: #26a69a; /* muda a cor do label */
+}
+
+.input-field input[type="button"] {
+  background-color: #26a69a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adiciona transição de cor */
+}
+
+.input-field input[type="button"]:hover {
+  background-color: #4db6ac; /* Altera cor ao passar o mouse */
+  box-shadow: 2px 2px 8px #333; /* Adiciona sombra ao passar o mouse */
+}
+
+.background {
+  position: absolute; /* Posiciona sobre os outros elementos */
+  width: 25rem; /* Ajusta a largura do container */
+  height: 550px; /* Ajusta a altura do container */
+  background-color: white; /* Define a cor de fundo */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* adiciona sombra */
+  border-radius: 20px; /* adiciona bordas arredondadas */
+  transform: translateY(40px); /* move o elemento 20 pixels para baixo*/
+  z-index: -1; /* garante que o background fique atrás dos outros elementos */
+}
+
+.google-login-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+}
+
+.google-login-button i {
+  padding-right: 10px;
+}
+
+.google-login-button i {
+  color: #d42121;
+  font-size: 20px;
+}
+
+.custom-btn {
+  padding: 12px 28px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  background-color: #26a69a;
+  color: white;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}

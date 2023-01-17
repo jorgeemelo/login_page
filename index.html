@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="background"></div>
+      <div class="title">
+        <h4>Login</h4>
+      </div>
+      <form>
+        <div class="input-field">
+          <i class="material-icons prefix">account_circle</i>
+          <input type="text" id="username" name="username" />
+          <label for="username">Nome de Usuário</label>
+        </div>
+        <div class="input-field">
+          <i class="material-icons prefix">lock</i>
+          <input type="password" id="password" name="password" />
+          <label for="password">Senha</label>
+        </div>
+        <div class="input-field">
+          <button class="custom-btn btn-entrar">Entrar com Login</button>
+        </div>
+        <button class="google-login-button">
+          <i class="fa fa-google"></i>Login com Google
+        </button>
+        <div class="text-register">
+          <h7>Ainda não possui uma conta?</h7>
+        </div>
+        <div>
+          <button
+            class="custom-btn btn-register"
+            onclick="window.location.href='register/register.html'">Cadastre-se</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
